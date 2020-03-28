@@ -1,0 +1,46 @@
+.todoContainer {
+    width:75%;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+}
+
+.todoText {
+    margin-left:10px;
+    font-size: 2rem;
+    font-weight: 100;
+    vertical-align: middle;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-remove {
+    margin-right:10px;
+}
+
+input[type=checkbox] {
+     position: relative;
+     font-size: 20px;
+}
+
+label>input[type=checkbox]:before {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-family: FontAwesome;
+    display: inline-block;
+    content:"\f096";
+    letter-spacing: 10px;
+}
+
+label>input[type=checkbox]:checked:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content:"\f046";
+    letter-spacing: 5px;
+}
+

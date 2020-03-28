@@ -1,0 +1,12 @@
+<div>
+
+    <mat-form-field>
+        <input matInput name="newTask" placeholder="New Task" [(ngModel)]="inputItem">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" [(ngModel)]="inputItem" (click)="addTodoItem()">
+        <span class="material-icons">
+            add_circle
+        </span>
+        Add New Task</button>
+</div>
